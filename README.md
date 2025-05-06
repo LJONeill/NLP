@@ -1,6 +1,6 @@
 # 🎬 IMDb Sentiment Analysis with BERT and NLP
 
-(report/images/wordcloud.png)
+!(report/images/wordcloud.png)
 
 **Python Version:** 3.11  
 **Transformers Version:** Hugging Face Transformers  
