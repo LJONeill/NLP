@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 About the Project
+## About the Project
 
 This repository contains an end-to-end **sentiment analysis pipeline** using the IMDb dataset of 50,000 movie reviews. The goal is to analyze the reviews with NLP techniques, clean and preprocess the data, visualize patterns (EDA), and fine-tune a BERT model for binary classification: **positive** vs **negative** sentiment.
 
@@ -22,7 +22,7 @@ A research paper is included to document the process and findings, focusing on m
 
 ---
 
-## 📦 Dataset
+## Dataset
 
 The dataset used is the [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews) from Kaggle.  
 It contains 50,000 labeled movie reviews split evenly between positive and negative sentiments.
@@ -30,3 +30,12 @@ It contains 50,000 labeled movie reviews split evenly between positive and negat
 To use the dataset:
 1. Download from the [Kaggle link](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).
 2. Place the CSV in the `data/` directory as `raw_imdb_dataset.csv`.
+
+---
+
+## How to run the code
+
+
+---
+
+
