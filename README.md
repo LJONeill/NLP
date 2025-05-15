@@ -32,8 +32,34 @@ To use the dataset:
 2. Place the CSV in the `data/` directory as `raw_imdb_dataset.csv`.
 
 ---
+## Workflow of the github and notebooks:
+
+1. Training the BERT NER tagging model ()
+2. Cleaning the raw IMDB dataset
+3. Using the trained BERT model to tag IMDB Data
+4. Fine tuning pretrained sentiment model from hugging face with 90% of cleaned IMDB data
+5. Clean and tag yelp data same way of IMDB
+6. Use cleaned YELP data as test data for the fine tuned model
+7. Perturb cleaned IMDB data and use for sentiment analysis test
+8. Test remaining 10% of cleaned IMDB data, perturbed IMDB data
+
+
+---
 
 ## How to run the code
+
+To run the code first you will have to download and install the 'requirements.txt' found in the "data" folder. 
+
+### Project baseline model / BERT NER tagging model:
+
+We have trained the model using the dataset. The parameters for the saved model can be found in a 
+
+https://ituniversity.sharepoint.com/:f:/s/NLP572/EmPch8O89UtCgIcIPi6vapMB64ZhhZDtMBcXpdbSvacxkA?e=oUad3m
+
+
+
+
+
 
 
 ---
