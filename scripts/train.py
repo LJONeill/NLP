@@ -1,3 +1,7 @@
+# this is the template used for the specific traiing sets. The filepaths are the ones used on HPC,
+# they do not follow the folder structure of this repository
+
+
 from transformers import BertTokenizer, BertForSequenceClassification, Trainer, TrainingArguments
 import torch
 import pandas as pd

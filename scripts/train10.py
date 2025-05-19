@@ -27,8 +27,8 @@ def compute_metrics(eval_pred):
 
 
 # Load pre-split data
-train_df = pd.read_csv("../data/train_1090.csv")  # or train_5050.csv etc.
-test_df = pd.read_csv("../data/test_1090.csv")
+train_df = pd.read_csv("../data//imdb_test_train_datasets/train/train_1090.csv")  # or train_5050.csv etc.
+test_df = pd.read_csv("../data/imdb_test_train_datasets/test/test_1090.csv")
 
 # Encode string labels into integers
 label_encoder = LabelEncoder()
@@ -76,5 +76,5 @@ trainer = Trainer(
 
 trainer.train()
 
-model.save_pretrained("./models/imdb_bert_10")
-tokenizer.save_pretrained("./models/imdb_bert_10")
+model.save_pretrained("./models/fine_tuned_bert_imdb/imdb_bert_10")
+tokenizer.save_pretrained("./models/fine_tuned_bert_imdb/imdb_bert_10")
