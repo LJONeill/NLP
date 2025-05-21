@@ -10,15 +10,22 @@
 
 ## About the Project
 
-This repository contains an end-to-end **sentiment analysis pipeline** using the IMDb dataset of 50,000 movie reviews. The goal is to analyze the reviews with NLP techniques, clean and preprocess the data, visualize patterns (EDA), and fine-tune a BERT model for binary classification: **positive** vs **negative** sentiment.
+About the Project
+This project explores sentiment analysis using the IMDb dataset of 50,000 movie reviews, aiming not only to build a high-performing classification model, but also to evaluate its behavioral robustness through structured perturbation testing.
 
-In addition to standard accuracy-based evaluation, this project incorporates **CheckList**, a behavioral testing framework, to analyze model robustness through two key tests:
-- **Invariance (INV):** Named Entities (NEs) are replaced with other entities to test whether model predictions remain stable.
-- **Directional Expectation (DIR):** Emotionally charged adjectives/adverbs are added to observe changes in model confidence and sentiment output.
+We fine-tune BERT (bert-base-uncased) for binary sentiment classification and go beyond standard accuracy metrics by integrating CheckList, a behavioral testing framework designed to expose weaknesses in NLP models.
 
-These tests help uncover hidden weaknesses that accuracy alone may not reveal.
+Specifically, we implement two CheckList test types:
 
-A research paper is included to document the process and findings, focusing on model behavior, domain sensitivity, and the importance of nuanced evaluation methods in NLP.
+Invariance (INV): Named Entities (e.g., people, places, organizations) are substituted with similar entities. A robust model should produce consistent sentiment predictions if the entity change doesn't affect textual sentiment.
+
+Directional Expectation (DIR): Sentiment-rich modifiers (e.g., emotionally loaded adjectives/adverbs) are added to test if the model's confidence in sentiment predictions increases appropriately in line with human expectations.
+
+This dual approach allows us to inspect how well the model generalizes beyond raw accuracy—examining whether predictions shift irrationally with irrelevant changes (INV), or respond appropriately to emotional cues (DIR).
+
+Additionally, we perform cross-domain evaluation, using a cleaned and processed Yelp dataset as out-of-domain test data. This highlights how well the model generalizes to real-world data it wasn't trained on.
+
+A full research paper accompanies this repository, detailing the motivation, methodology, experimental design, and findings. The project demonstrates the importance of evaluating NLP models not just by what they get right, but by understanding why they succeed or fail.
 
 ---
 
