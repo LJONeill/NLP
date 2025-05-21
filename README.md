@@ -48,16 +48,18 @@ To use the dataset:
 
 ## How to run the code and reproduce results
 
-To run the code first you will have to download and install the 'requirements.txt' found in the "data" folder. 
+To run the code first you will have to download and install the 'requirements.txt' found in the "data" folder. There was both used .py scrips as well as notebooks to execute our code. Notebooks were primarily used for simple tasks such as EDA and cleaning, where ask the scripts were used during HPC trianing of our models. 
 
 ### 1. Project baseline model / BERT NER tagging model:
 
-We have trained the model using the dataset ["en_ewt-ud-test.iob2"](https://learnit.itu.dk/pluginfile.php/418423/mod_resource/content/1/en_ewt-ud-test.iob2) . The parameters for the saved model can be found in a 
+We have trained the baseline model using the dataset ["en_ewt-ud-test.iob2"](https://learnit.itu.dk/pluginfile.php/418423/mod_resource/content/1/en_ewt-ud-test.iob2) . The trained model parameters can be found in our sharepoint [HERE](https://ituniversity.sharepoint.com/:f:/s/NLP572/EmPch8O89UtCgIcIPi6vapMBxB_O0rVGicvcW1p6u64x0A?e=kRt6Qf) for replicating the NER tagging process for our data.
+
+### 2. EDA and cleaning data
+
+To run and replicate the cleaned data set that was used for further analysis, you can simply run the notebook "eda_clean_imdb". (Output of the cleaned dataset code block has been frozen in case the outcome will be diffrent, even thought no randomisation was used in the process.)
 
 
 
-
-https://ituniversity.sharepoint.com/:f:/s/NLP572/EmPch8O89UtCgIcIPi6vapMB64ZhhZDtMBcXpdbSvacxkA?e=oUad3m
 
 
 
