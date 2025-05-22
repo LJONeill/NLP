@@ -7,8 +7,6 @@
 
 This GitHub repository presents our NLP project focused on leveraging the CheckList evaluation method in combination with Named Entity Recognition (NER) tagging to investigate sentiment classification models. The core aim is to analyze whether sentiment models are influenced by the presence of named entities—even though such information should ideally not affect sentiment predictions. Our work examines potential biases, cross-domain robustness, and the underlying behavior of sentiment classifiers.
 
-(feel free to add more but i tried to keep it short)
-
 ## Datasets
 
 ### imdb
@@ -36,19 +34,14 @@ Below is a brief outline of our workflow and the sequence in which the notebooks
 
 ## how to reproduce our results
 
-To ensure reproducibility, all core functionality has been implemented in Jupyter notebooks, where as the trianing anf fine tuning of the models were conducted by using HPC . To preserve data integrity and ensure consistency across notebooks and scripts, we have commented out the cells responsible for generating or overwriting data. This avoids discrepancies in intermediate datasets. Most of the key results are already stored within the notebooks, so re-running all code is not necessary unless desired. A requirements.txt file is included to support clean environment setup if needed.
+To ensure reproducibility, all core functionality has been implemented in Jupyter notebooks, whereas the training and fine-tuning of the models were conducted using HPC (High-Performance Computing). To preserve data integrity and ensure consistency across notebooks and scripts, we have commented out the cells responsible for generating or overwriting data. This avoids discrepancies in intermediate datasets. Most of the key results are already stored within the notebooks, so re-running all code is not necessary unless desired. A `requirements.txt` file is included to support clean environment setup if needed.
 
-Our final results can be found in the notebook accuracy_analyses.ipynb, located under the notebooks/imdb directory. For a step-by-step guide to recreate the datasets and results, please refer to the workflow outlined above.
+Our final results can be found in the notebook `accuracy_analyses.ipynb`, located under the `notebooks/imdb` directory. For a step-by-step guide to recreate the datasets and results, please refer to the workflow outlined above.
 
-### Detailed workflow of the github
-
-do we need this?
 
 ## Disclaimers and aknlowledgements
 
-We acknowledge that generative AI tools were used throughout this project—for code assistance, explaining external implementations. We also drew inspiration from publicly available models and solutions hosted on Hugging Face And Kaggle. 
-
-(please see if we should add naything else)
+We acknowledge that generative AI tools were used throughout this project—for code assistance and help understanding external implementations. We also drew inspiration from publicly available models and solutions hosted on Hugging Face and Kaggle.
 
 ## Sources
 
