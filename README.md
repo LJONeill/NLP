@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This GitHub repository presents our NLP project focused on leveraging the CheckList evaluation method in combination with Named Entity Recognition (NER) tagging to investigate sentiment classification models. The core aim is to analyze whether sentiment models are influenced by the presence of named entities—even though such information should ideally not affect sentiment predictions. Our work examines potential biases, cross-domain robustness, and the underlying behavior of sentiment classifiers.
+This GitHub repository represents the coding part our NLP project focused on leveraging the CheckList evaluation method in combination with Named Entity Recognition (NER) tagging to investigate sentiment classification models. The core aim is to analyze whether sentiment models are influenced by the presence of named entities—even though such information should ideally not affect sentiment predictions. Our work examines potential biases, cross-domain robustness, and the underlying behavior of sentiment classifiers.
 
 ## Datasets
 
@@ -17,20 +17,18 @@ We used the [Large Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sen
 
 We used the [Yelp Restaurant Reviews Dataset](https://www.kaggle.com/datasets/farukalam/yelp-restaurant-reviews) published by Faruk Alam on Kaggle. The dataset consists of restaurant reviews paired with 1–5 star ratings. While it does not include explicit sentiment labels, the star ratings were used to infer sentiment polarity for training and evaluation purposes.
 
-
-
 ## workflow outline
 
 Below is a brief outline of our workflow and the sequence in which the notebooks and Python scripts are intended to be used:
 
-1. Train the baseline BERT NER tagging model
-2. Perform data cleaning and exploratory data analysis (EDA) on the IMDB dataset
-3. Perform data cleaning and EDA on the Yelp dataset
-4. Apply tokenization and NER tagging to the cleaned IMDB data
-5. Fine-tune a pre-trained BERT sentiment classifier
-6. Perturb the IMDB data using CheckList methods
-7. Evaluate model performance on both perturbed IMDB data and Yelp data
-8. Conduct an accuracy and robustness analysis
+1. Train Baseline BERT NER Model
+2. Clean and Analyze IMDB Dataset
+3. Clean and Analyze Yelp Dataset
+4. Apply NER Tagging to IMDB Data
+5. Fine-Tune BERT Sentiment Classifier using and tag imdb data using HPC
+6. Generate Perturbations with CheckList
+7. Evaluate Cross-Domain and Perturbed Performance
+8. Conduct Accuracy and Robustness Analysis
 
 ## how to reproduce our results
 
