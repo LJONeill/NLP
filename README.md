@@ -46,7 +46,7 @@ do we need this?
 
 ## Disclaimers and aknlowledgements
 
-We acknowledge that generative AI tools were used throughout this project—for code assistance, explaining external implementations, and generating text used in our perturbation procedures. We also drew inspiration from publicly available models and solutions hosted on Hugging Face And Kaggle. 
+We acknowledge that generative AI tools were used throughout this project—for code assistance, explaining external implementations. We also drew inspiration from publicly available models and solutions hosted on Hugging Face And Kaggle. 
 
 (please see if we should add naything else)
 
