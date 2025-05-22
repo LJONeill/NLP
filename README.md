@@ -44,29 +44,7 @@ Our final results can be found in the notebook accuracy_analyses.ipynb, located 
 
 ### Detailed workflow of the github
 
-1. Traiing the baseline model
-
-The BERT model was provided from (i dont remember where or how we got the model)... and trianed on the ... dtatset .... The trianing of the model can be found in the notebook "project_baseline.ipynb" in the directory "models/baseline_models". 
-
-The trainded model output can be found [HERE](https://ituniversity.sharepoint.com/:f:/s/NLP572/EmPch8O89UtCgIcIPi6vapMBxB_O0rVGicvcW1p6u64x0A) in our sharepoint, because it was too big to push to github. We only used the checkpoint 4070 and how will be desscirbed at that step. 
-
-2. Cleaning and peforming EDA of  imdb data
-
-
-
-
-
-3. cleaning EDA of yelp data
-
-4. Tokenising and NER tagging of the cleaned imdb dataset
-
-5. fine-tuning pretrained sentimental BERT model
-
-6. Pertubating imdb data
-
-7. Testing pertubed imdb data as well as yelp data
-
-8. Peforming accuracy analysis
+do we need this?
 
 ## Disclaimers and aknlowledgements
 
