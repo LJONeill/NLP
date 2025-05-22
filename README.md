@@ -15,7 +15,7 @@ We used the [Large Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sen
 
 ### Yelp
 
-We used the [Yelp Restaurant Reviews Dataset](https://www.kaggle.com/datasets/farukalam/yelp-restaurant-reviews) published by Faruk Alam on Kaggle. The dataset consists of restaurant reviews paired with 1–5 star ratings. While it does not include explicit sentiment labels, the star ratings were used to infer sentiment polarity for training and evaluation purposes.
+We used the [Yelp Restaurant Reviews Dataset](https://www.kaggle.com/datasets/farukalam/yelp-restaurant-reviews) published by Faruk Alam on Kaggle. The dataset consists of restaurant reviews paired with 1–5 star ratings. While it does not include explicit sentiment labels, the star ratings were used to infer sentiments.
 
 ## workflow outline
 
