@@ -15,8 +15,6 @@ This GitHub repository presents our NLP project focused on leveraging the CheckL
 
 We used the [Large Movie Review Dataset](https://ai.stanford.edu/~amaas/data/sentiment/) released by Maas et al. (2011) from the Stanford AI Lab. It contains 50,000 highly polar movie reviews.
 
-### yelp
-
 ### Yelp
 
 We used the [Yelp Restaurant Reviews Dataset](https://www.kaggle.com/datasets/farukalam/yelp-restaurant-reviews) published by Faruk Alam on Kaggle. The dataset consists of restaurant reviews paired with 1–5 star ratings. While it does not include explicit sentiment labels, the star ratings were used to infer sentiment polarity for training and evaluation purposes.
